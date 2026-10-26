@@ -1,0 +1,63 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(243, 239, 234);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.img-cesae img {
+    width: 50%;
+}
+
+header nav {
+    padding: 10px;
+    text-align: center;
+    font-weight: normal;
+    background-color: #2d2f31;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #d8d9da;
+}
+
+main {
+    padding: 15px;
+}
+
+main p,
+main li {
+    text-align: justify;
+}
+
+footer {
+    margin: 0;
+    width: 100%;
+    padding: 0px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 0.9em;
+    text-align: center;
+    background-color: #2d2f31;
+}
