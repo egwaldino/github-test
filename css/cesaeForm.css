@@ -28,11 +28,44 @@ label {
     font-weight: bold;
 }
 
-input {
-    width: 95%;
-    margin-top: 10px;
-    padding: 10px;
+.form-group-text {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 15px;
+}
+
+.form-group-text input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.form-group-checkbox input {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.form-group-date-turma-mensagem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form-group-date-turma-mensagem input, select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -46,21 +79,48 @@ textarea {
     border-radius: 4px;
 }
 
-button {
+.form-group-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btn-primary {
     background-color: #007BFF;
     width: 100%;
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     height: 42px;
     font-size: 1rem;
     font-weight: bold;
+    gap: 10px;
 }
 
-button:hover {
+.btn-secondary {
+    background-color: #6c757d;
+    width: 100%;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 42px;
+    font-size: 1rem;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.btn-primary:hover {
     background-color: #0056b3;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.btn-secondary:hover {
+    background-color: #d42c2c;
 }
 
 #form-header {
