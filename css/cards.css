@@ -1,0 +1,36 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.cards {
+    gap: 10px;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    max-width: 50%;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #000;
+}
+
+.card h1, p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
